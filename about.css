@@ -1,0 +1,85 @@
+body {
+    background-color: #faf9fa;
+}
+h2.previous1 {
+    color: #faf9fa;
+}
+    
+p.bio {
+    font-family:'Heebo', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 200;
+    max-width: 44ch;
+    color: #013650;
+}
+
+p.secondary {
+    font-family:'Heebo', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 200;
+    max-width: 44ch;
+    color: #faf9fa;
+}
+.page-links ul a {
+    color: #01506F;
+    font-family: 'Heebo', sans-serif;
+    padding-right: 2rem;
+    text-decoration: none;
+}
+
+img.logo2 {
+    width: 6rem;
+    margin: 35px;
+}
+
+img.secondary-pic {
+    width: 29rem;
+    height: 28rem;
+    border-radius:5px;
+    padding-top: 2rem;
+}
+
+button.head6 {
+    margin-left: 0rem;
+    margin-top: 2rem;
+}
+
+.website-link {
+    text-decoration: none;
+    color: #eb8d5e;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.profile-pic {
+    border-radius: 5px;
+    margin-bottom: 5rem;
+}
+
+.secondary-box {
+    background-color: #013650;
+    height: 43rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 5rem;
+    margin-bottom: -2.5rem;
+
+}
+
+.previous {
+    background-color: #013650;
+}
+
+h2.previous1 {
+    margin-left: 12.5rem;
+}
+
+.previous3 {
+    padding-bottom: 2rem;
+}

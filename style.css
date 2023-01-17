@@ -1,0 +1,115 @@
+
+
+/* body {
+    background-color: #1d2338;
+    background-image: url(images/Background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 43%;
+    color: #faf9fa;
+    font-family: 'Raleway', sans-serif;
+} */
+
+
+/* header starts here */
+
+
+
+/* .header-prime {
+    align-items: baseline;
+    display: flex;
+    left: 7.3rem;
+    margin-bottom: 3rem;
+    margin-top: -4.2rem;
+    position: relative;
+} */
+
+
+/* 
+.head-pic {
+    height: 950px;
+    left: 50rem;
+    opacity: 70%;
+    position: absolute;
+    top: 0;
+    width: 900px;
+    z-index: 1;
+} */
+
+
+
+
+
+/* header ends here */
+
+/* UX DEsign Process starts here */
+/* .works {
+    background-color: #faf9fa;
+    color: #1d2338;
+    display: flex;
+    font-family: 'Heebo', sans-serif;
+    justify-content: space-around;
+    max-height: 40rem;
+}
+
+.works2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+}
+
+img.works {
+    height: 22rem;
+    margin: 5rem 2rem;
+    width: 21.5rem;
+}
+
+h2.works {
+    font-size: 3rem;
+}
+
+p.works {
+    font-size: 1.5rem;
+    margin-top: -2rem;
+    max-width: 65ch;
+} */
+
+
+
+/* UX DEsign Process ends here */
+
+.previous-work {
+    background: #1f253b;
+    display: block;
+    height: 28rem;
+    justify-content: center;
+}
+
+.previous-work-pics1 {
+    display: flex;
+    justify-content:space-evenly;
+    padding-bottom: 1.2rem;
+    margin-top: -2rem;
+}
+
+.previous-work-pics2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1.2rem;
+}
+
+.about-work {
+            font-family:'Heebo', sans-serif;
+            font-weight: 500;
+            font-size: 3.7rem;
+            color: #faf9fa;
+            margin-left: 9rem;
+            margin-top: 1rem;
+}
+.img {
+    border-radius: 4px;
+} */
+
+
+/* Previous works ends here */
+

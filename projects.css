@@ -1,0 +1,236 @@
+body {
+    background-color: #01506F;
+}
+
+img.logo1 {
+margin: 35px;
+width: 9.3rem;
+}
+
+img.logo2 {
+    width: 9.3rem;
+}
+
+p.project1 {
+    color: #faf9fa;
+    margin-left: 9.3rem;
+}
+
+.project2 img {
+    position: relative;
+    margin-left: -7rem;
+}
+
+.project-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -6rem;
+}
+
+p.project {
+    color: #faf9fa;
+    max-width: 40ch;
+    margin-left: 9.3rem;
+    font-size: 1.5rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+}
+img.project {
+    width: 40rem;
+    opacity: 85%;
+}
+
+.anirak-logo {
+    margin-left: 23.5rem;
+    margin-bottom: -6rem;
+}
+
+.project-info {
+    display: flex;
+    padding: 5rem;
+}
+
+.project-base {
+    display: flex;
+}
+
+.column-one {
+    color: #faf9fa;
+    margin-left: 5rem;
+    font-size: 1.5rem;
+    min-width: 15ch;
+    margin-top: 1rem;
+    
+}
+
+.text-one {
+    margin-bottom: 9.3rem;
+    font-size: 1.5rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+}
+
+.text-two {
+    margin-bottom: 3.6rem;
+    font-size: 1.5rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+}
+
+.text-three {
+    font-size: 1.5rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+}
+
+.column-two {
+    color: #faf9fa;
+    margin-left: 2rem;
+    max-width: 80ch;
+    margin-right: 2rem;
+}
+
+.text-four {
+    font-size: 2rem;
+    font-family: 'IM FELL ENGLISH SC', sans-serif;
+}
+
+.text-five {
+    font-size: 1.5rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+    margin-top: -1rem;
+}
+
+.text-six {
+    font-size: 1.5rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+}
+
+.text-seven {
+    font-size: 1.5rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+}
+
+.project-images {
+    margin-top: -2rem;
+}
+
+.images-two {
+    position: relative;
+    z-index: 1;
+    left: -7rem;
+    top: 9rem;
+}
+
+.images-three {
+    position: relative;
+    top: 3rem;
+    left: 20rem;
+}
+
+.roar {
+    height: 55rem;
+    background-color: #faf9fa;
+}
+
+.project-info1 {
+    display: flex;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    margin-bottom: -1rem;
+}
+
+.project-base1 {
+    display: flex;
+}
+
+.column-one1 {
+    margin-left: 5rem;
+    min-width: 15ch;
+    margin-top: 1rem;
+}
+
+.text-one1 {
+    margin-bottom: 12rem;
+    font-size: 1.5rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+}
+
+.text-two1 {
+    margin-bottom: 1.6rem;
+    font-size: 1.5rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+}
+
+.text-three1 {
+    font-size: 1.5rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+}
+
+.column-two1{
+    margin-left: 6rem;
+    max-width: 80ch;
+    margin-right: 2rem;
+    font-weight: 200;
+    color: #1d2338;
+}
+
+.roar-name {
+    display: flex;
+    margin-bottom: -3rem;
+    color: #1d2338;
+}
+
+.text-four1 {
+    font-size: 2rem;
+    font-family: 'Courier Prime', monospace;
+    font-weight: 700;
+}
+
+.text-five1 {
+    font-size: 1.5rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+}
+
+.text-six1 {
+    font-size: 1.5rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+}
+
+.text-seven1 {
+    font-size: 1.5rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+}
+
+.roar-b {
+    width: 7.7rem;
+}
+
+.roar-image {
+    width: 32rem;
+    height: 19.5rem;
+    margin-left: 4rem;
+    margin-top: 7rem;
+}
+
+p.extra-info {
+    max-width: 38ch;
+    padding-left: 8.3rem;
+    font-size: 1.5rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+}
+
+button.head6 {
+    margin-bottom: 2rem;
+}
