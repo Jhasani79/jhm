@@ -1,1 +1,3 @@
-# jhm
+# Jhm  Designs
+https://jhasani79.github.io/jhm-designs/
+PROFESSIONAL UX/UI DESIGN AND WEB DEVELOPMENT FOR YOUR BUSINESS GROWTH AND PROFITABILITY
