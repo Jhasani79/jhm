@@ -3,7 +3,6 @@ body {
 }
 
 img.logo1 {
-margin: 35px;
 width: 9.3rem;
 }
 
@@ -25,7 +24,7 @@ p.project1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -6rem;
+    margin-top: -5rem;
 }
 
 p.project {
