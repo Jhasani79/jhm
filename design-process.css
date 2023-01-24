@@ -6,7 +6,7 @@ body {
 /* navigation starts here */
 
 .header {
- height: 910px;
+ height: 810px;
 }
 
 /* navigation ends here */
@@ -51,14 +51,18 @@ img.design {
 .ux {
     display: flex;
     justify-content: space-evenly;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .par1 p {
     max-width: 30ch;
+    padding-right: 1rem;
 }
 
 .par2 p {
     max-width: 35ch;
+    padding-right: 1rem;
 }
 
 .par3 p {
@@ -89,7 +93,7 @@ button.head6 {
    
     font-size: 3rem;
     color:#01506F;
-    margin-left: 12rem;
+    margin-left: 4.5rem;
     padding-bottom: 2rem;
 
 }
