@@ -1,107 +1,97 @@
 body {
     background-color: #01506F;
     color: #faf9fa;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 400;
 }
 
-img.logo2 {
-    width: 9.3rem;
-    
-}
-.previous-work {
-    background-color: #faf9fa;
-    color: #1f253b;
-    height: 29.625rem;
-}
+/* navigation starts here */
 
 .header {
-    padding:3rem;
+ height: 910px;
 }
+
+/* navigation ends here */
+
+/* header starts here */
 
 .header-info-main {
-display: flex;
-}
-
-img.header-info {
-    width: 20rem;
-    height: 13rem;
-    border-radius: 5px;
-    opacity: 70%;
-}
-.about-work {
-    color: #1f253b;
+    display: flex;
+    justify-content: center;
 }
 
 h1.design-process {
     font-size: 4.5rem;
     font-weight: 500;
     margin-left: 7.7rem;
+    margin-bottom: 1rem;
 }
 
 p.design-process {
-    font-size: 1.5rem;
     font-weight: 200;
     margin-left: 8.3rem;
-    margin-bottom: 3rem ;
+    margin-bottom: 3rem;
+    max-width: 51.9ch;
 }
 
-.design {
-    margin-left: 5.3rem;
-    margin-bottom: 3rem ;
+img.design-process {
+    width: 20rem;
+    height: 13rem;
+    border-radius: 5px;
+    opacity: 70%;
+    margin-left: 3rem;
+    margin-bottom: 2em;
+}
+
+img.design {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
 }
 
 .ux {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .par1 p {
-    font-family: 'Heebo', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 100;
     max-width: 30ch;
-    margin-left: 8.3rem;
 }
 
 .par2 p {
-    font-family: 'Heebo', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 100;
-    max-width: 34ch;
-    margin-left: 4rem;
-    
+    max-width: 35ch;
 }
 
 .par3 p {
-    font-family: 'Heebo', sans-serif;
-    font-size: 1.5rem;
-    font-weight: 100;
     max-width: 38ch;
-    margin-left: 4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
 }
 
 button.head6 {
-    margin-left: 4rem;
+    margin-left: -0.1rem;
     margin-bottom: 3rem;
 }
 
+/* header ends here */
+
+/* previous work starts here */
+
 .previous {
-    height: 32rem;
     background-color: #faf9fa;
-    margin-top: -2rem;
+    height: 29rem;
+    padding: 2rem;
 }
 
 .previous1 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
+   
     font-size: 3rem;
     color:#01506F;
-    margin-left: 10rem;
-    padding-top: 3rem;
-}
-h2.previous1 {
-    margin-left: 12.5rem;
+    margin-left: 12rem;
+    padding-bottom: 2rem;
+
 }
 
 .previous2 {
@@ -114,10 +104,12 @@ h2.previous1 {
     justify-content: space-evenly;
     padding: 1rem;
     margin-right: 1rem;
-    padding-bottom: 2rem;
 }
-
 
 img.previous2 {
     border-radius: 4px;
 }
+/* previous work ends here */
+
+
+

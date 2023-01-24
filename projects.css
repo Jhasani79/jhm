@@ -2,45 +2,34 @@ body {
     background-color: #01506F;
 }
 
-img.logo1 {
-width: 9.3rem;
-}
-
-img.logo2 {
-    width: 9.3rem;
-}
-
-p.project1 {
-    color: #faf9fa;
-    margin-left: 9.3rem;
-}
-
-.project2 img {
-    position: relative;
-    margin-left: -7rem;
-}
+/* header starts here */
 
 .project-head {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -6rem;
+    margin-top: -5rem;
+    margin-bottom: 1rem;
 }
 
 p.project {
     color: #faf9fa;
     max-width: 40ch;
-    margin-left: 9.3rem;
-    font-size: 1.5rem;
-    font-family: 'Heebo', sans-serif;
+    margin-left: 7.3rem;
     font-weight: 100;
 }
+
 img.project {
     width: 40rem;
     opacity: 85%;
 }
 
-.anirak-logo {
+/* header ends here */
+
+/* Anirak Irafaj project info starts here */
+
+img.anirak-logo {
+    padding-bottom: 2rem;
     margin-left: 23.5rem;
     margin-bottom: -6rem;
 }
@@ -59,63 +48,51 @@ img.project {
     margin-left: 5rem;
     font-size: 1.5rem;
     min-width: 15ch;
-    margin-top: 1rem;
-    
+    margin-top: 0.5rem; 
 }
 
 .text-one {
-    margin-bottom: 9.3rem;
-    font-size: 1.5rem;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 100;
+    margin-bottom: 7.6rem;
 }
 
 .text-two {
-    margin-bottom: 3.6rem;
-    font-size: 1.5rem;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 100;
+    margin-bottom: 3.4rem;
 }
 
 .text-three {
-    font-size: 1.5rem;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 100;
+    
 }
 
 .column-two {
     color: #faf9fa;
     margin-left: 2rem;
     max-width: 80ch;
-    margin-right: 2rem;
+    margin-right: 3rem;
 }
 
 .text-four {
     font-size: 2rem;
     font-family: 'IM FELL ENGLISH SC', sans-serif;
+    margin-bottom: 1rem;
+    /* padding-bottom: 1rem; */
+}
+
+em {
+    padding-bottom: 1rem;
 }
 
 .text-five {
-    font-size: 1.5rem;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 100;
+    padding-bottom: 1rem;
     margin-top: -1rem;
 }
 
 .text-six {
-    font-size: 1.5rem;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 100;
-}
-
-.text-seven {
-    font-size: 1.5rem;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 100;
+    padding-bottom: 1rem;
 }
 
 .project-images {
-    margin-top: -2rem;
+    margin-top: -8rem;
+    padding-bottom: 2rem;
 }
 
 .images-two {
@@ -131,16 +108,20 @@ img.project {
     left: 20rem;
 }
 
+/* Anirak Irafaj project info starts here */
+
+/* Roar bikes project starts here */
+
 .roar {
-    height: 55rem;
+    height: 53rem;
     background-color: #faf9fa;
+    padding: 3rem;
 }
 
 .project-info1 {
     display: flex;
-    padding-left: 5rem;
-    padding-top: 2rem;
-    margin-bottom: -1rem;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
 }
 
 .project-base1 {
@@ -150,27 +131,19 @@ img.project {
 .column-one1 {
     margin-left: 5rem;
     min-width: 15ch;
-    margin-top: 1rem;
+    margin-top: 2.7rem;
 }
 
 .text-one1 {
-    margin-bottom: 12rem;
-    font-size: 1.5rem;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 100;
+    margin-bottom: 11rem;   
 }
 
 .text-two1 {
-    margin-bottom: 1.6rem;
-    font-size: 1.5rem;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 100;
+    margin-bottom: 1rem;
 }
 
 .text-three1 {
-    font-size: 1.5rem;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 100;
+
 }
 
 .column-two1{
@@ -183,8 +156,14 @@ img.project {
 
 .roar-name {
     display: flex;
-    margin-bottom: -3rem;
+    justify-content: flex-start;
+    align-items: center;
     color: #1d2338;
+    margin-bottom: -2rem;
+}
+
+.roar-b {
+    width: 7.7rem;
 }
 
 .text-four1 {
@@ -194,25 +173,15 @@ img.project {
 }
 
 .text-five1 {
-    font-size: 1.5rem;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 100;
+  margin-bottom: 1rem;  
 }
 
 .text-six1 {
-    font-size: 1.5rem;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 100;
+    margin-bottom: 1rem;
 }
 
 .text-seven1 {
-    font-size: 1.5rem;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 100;
-}
-
-.roar-b {
-    width: 7.7rem;
+    margin-bottom: 2rem;
 }
 
 .roar-image {
@@ -222,14 +191,24 @@ img.project {
     margin-top: 7rem;
 }
 
-p.extra-info {
+.extra-info {
     max-width: 38ch;
-    padding-left: 8.3rem;
-    font-size: 1.5rem;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 100;
+    padding-left: 7rem;
+    margin-bottom: 1rem;
 }
 
 button.head6 {
     margin-bottom: 2rem;
 }
+
+button.head6:hover {
+    color: #01506F;
+}
+
+button.head6:active {
+    color: #faf9fa;
+}
+
+/* Roar bikes project ends here */
+
+

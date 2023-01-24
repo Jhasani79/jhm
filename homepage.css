@@ -4,115 +4,115 @@ body {
     color: #faf9fa;
 }
 
+/* Landing Page starts here */
+
 .landing-page {
     display: flex;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 6rem;
 }
+
 .header1 {
-    display: flex;
     align-items: baseline;
-    margin-top: -4rem;
-    z-index: -1;
+    display: flex;
+    margin: -3.5rem 0rem 2rem 8.3rem;
 }
 
 .head1 {
     font-size: 4rem;
-    font-weight: 700;
-    margin-left: 9rem;
-    font-family: 'Raleway', sans-serif;
-    z-index: -1;
+    font-weight: 700;    
+}
+
+.header2 {
+    margin-left: 1rem;
 }
 
 .head2 {
     font-size: 3rem;
     font-weight: 500;
-    font-family: 'Raleway', sans-serif;
-    z-index: -1;
-}
-
-.header2 {
-    margin-left: 1.5rem;
-    z-index: -1;
+    padding: .625rem;
+    letter-spacing: 0.5rem;
 }
 
 .head3 {
+    font-weight: 100;
+    margin-bottom: 1rem;
+    margin-left: 7.3rem;
+    margin-top: -2rem;
     font-size: 2rem;
-    font-family:'Raleway', sans-serif;
     padding-top: 2rem;
     max-width: 35ch;
     line-height: 2.5rem;
     letter-spacing: 0.5rem;
-    z-index: -1;
 }
 
-p.head4 {
-    font-size: 1.5rem;
-    font-family: 'Heebo', sans-serif;
+.head4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
     font-weight: 100;
     max-width: 43ch;
-    z-index: -1;
+    margin-left: 7.4rem;
 }
 
-p.head5 {
-    font-size: 1.5rem;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 100;
-    z-index: -1;
+.head5 {
+    color: #eb8d5e;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    max-width: 35ch;
+    margin-left: 7.3rem;
 }
 
-.image-header {
-    z-index: -2;
-    margin-top: -10rem;
-    width: 800px;
-    height: 900px;
-}
+/* Landing Page end here */
+
+/* UX Process starts here */
 
 .ux-process {
+    background-color: #faf9fa;
     display: flex;
     height: 29rem;
-    background-color: #faf9fa;
-    padding: 3rem;
     justify-content: center;
-    margin-top: -4rem;
+    padding: 3rem;
 }
 
 .design-process-text {
     padding-left: 6rem;
-    margin-top: -3rem;
 }
 
 img.design-process {
     width: 22rem;
     height: 23rem;
-    margin-right:10rem;
+    margin-right:7rem;
 }
 
 h2.design-process {
-    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 3rem;
     color: #1d2338;
+    padding-bottom: 1rem;
 }
 
 p.design-process {
-    font-size: 1.5rem;
     color: #1d2338;
     max-width: 50ch;
+    padding-bottom: 1rem;
+    font-weight: 200;
 }
 
+/* UX Process ends here  */
+
+/* Previous Work starts here */
 
 .previous {
     height: 29rem;
     background-color: #1d2338;
-    margin-top: -2rem;
+    padding: 2rem;
 }
 
 .previous1 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
     font-size: 3rem;
     color:#faf9fa;
-    margin-left: 10rem;
-    padding-top: 3rem;
+    margin-left: 12rem;
+    padding-bottom: 2rem;
 }
 
 .previous2 {

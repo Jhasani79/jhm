@@ -2,6 +2,61 @@ body {
     background-color: #faf9fa;
 }
 
+/* Navigation starts here */
+
+img.logo1 {
+    margin: 35px;
+    width: 6rem;
+    }
+
+    ul a.nav {
+        color:#01506F;
+        font-family: 'Heebo', sans-serif;
+        font-weight: 400;
+    }
+
+/* Navigation ends here */
+/* header text starts here */
+
+.head {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color:#01506F;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+h1 {
+    color:#01506F;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-size: 3.2rem;
+    width: 1100px;
+}
+
+.paragraph {
+    color:#01506F;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+
+/* header text ends here */
+
+/* the form starts here */
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
 .form input {
     background:#f6f6f6;
     padding: 1.2rem 20rem 1.2rem 1.2rem;
@@ -18,87 +73,77 @@ body {
     opacity: 70%;
 }
 
-img.logo1 {
-margin: 35px;
-width: 6rem;
-}
-
-img.logo2 {
-    width: 9.3rem;
-}
-
-ul a.nav {
-    color:#01506F;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 400;
-}
-
-.head {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-h2 {
-    color:#01506F;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 100;
-    font-size: 2.5rem;
-    margin: 0;
-}
-
-h1 {
-    color:#01506F;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 700;
-    font-size: 3.2rem;
-    width: 1100px;
-}
-.paragraph {
-    color:#01506F;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 300;
-    font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 4rem;
-}
-
-.forms1 {
-   background: #f6f6f6; 
-   border: 2px solid #01506F;
-   color: #01506F;
-   opacity: 50%;
-   padding: 1rem 2rem;
-   font-family: 'Heebo', sans-serif;
-   font-weight: 400;
-   font-size: 1.5rem;
-   margin-right: 2rem;
-}
-
-.forms2 {
-    background: #eb8d5e;
-    border-radius: 4px;
-    color: #faf9fa;
-    padding: 1rem 2rem;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 400;
-    font-size: 1.5rem;
-}
-
 .button {
     display: flex;
     justify-content: center;
     padding: 1.2rem;
-    margin-right: 8rem;
+    margin-right: 4.5rem;
     margin-bottom: 2rem;
 }
-.info {
-    display: flex;
-    justify-content: center;
+
+.forms1 {
+    width: 140px;
+    height: 40px;
+    background: #f6f6f6; 
+    border: 2px solid #01506F;
+    border-radius: 4px;
+    color: #01506F;
+    opacity: 50%;
+    line-height: 19px;
+    padding: 4px 25px 0px 25px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all 200ms ease;
+ }
+ .forms1:hover {
+    background: #9aa1bd;
+    color: #faf9fa;
+ }
+
+ .forms1:active {
+    background: #01506F;
+    color: #faf9fa;
+ }
+ .forms2 {
+    width: 140px;
+    height: 40px;
+     background: #eb8d5e;
+     border: none;
+     border-radius: 4px;
+     color: #faf9fa;
+     line-height: 19px;
+     padding: 10px 25px 6px 25px;
+     font-family: 'Heebo', sans-serif;
+     font-weight: 300;
+     font-size: 1.5rem;
+     text-transform: uppercase;
+     transition: all 200ms ease;
+ }
+
+ .forms2:hover {
+    background: #be6538;
+ }
+
+ .forms2:active {
+    background: #d16a11;
+ }
+/* the form ends here */
+
+
+/* Side info starts here */
+
+.side-info {
+    display:block;
+    justify-content: flex-start;
+    margin-left: 10em;
 }
+
 .contact-info {
     display: flex;
+    margin-bottom: .5rem
 }
 
 h2.contact-info{
@@ -107,7 +152,6 @@ h2.contact-info{
     font-size: 2.2rem;  
     align-items: baseline;
     color: #01506F;
-    padding: 0;
 }
 
 img.contact-info {
@@ -121,27 +165,58 @@ img.contact-info {
     display: flex;
 }
 
-.info-text {
-    color: #01506F;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 400;
-    font-size: 1.5rem; 
-}
-
 .phone {
     color: #eb8d5e;
-    font-family: 'Heebo', sans-serif;
     font-weight: 400;
-    font-size: 1.5rem; 
+    padding-bottom: 1rem;
     margin-right: 0.5rem;
+}
+.email {
+    color: #eb8d5e;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    margin-right: 0.5rem;
+}
+
+.info-text {
+    color: #01506F;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+
+.info-text1 {
+    color: #01506F;
+    font-weight: 300;
+    padding-bottom: 1rem;
 }
 
 .email,.info-text1 {
     margin-top: -1.3rem;
 }
 
-.side-info {
-    display:block;
-    justify-content: flex-start;
-    margin-left: 10em;
-}
+/* Side info ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
