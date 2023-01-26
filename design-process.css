@@ -90,8 +90,7 @@ button.head6 {
 }
 
 .previous-work {
-    position: relative;
-    left: 12rem;
+    text-align: center;
     font-size: 3rem;
     color:#01506F;
     padding-bottom: 2rem;

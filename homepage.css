@@ -109,8 +109,7 @@ p.design-process {
 }
 
 .previous-work {
-    position: relative;
-    left: 12rem;
+    text-align: center;
     font-size: 3rem;
     color:#faf9fa;
     padding-bottom: 2rem;
