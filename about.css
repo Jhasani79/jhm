@@ -95,11 +95,12 @@ hr {
     padding: 2rem;
 }
 
-.previous1 {
+.previous-work {
+    position: relative;
+    left: 12rem;
     font-size: 3rem;
     color:#faf9fa;
     padding-bottom: 2rem;
-    margin-left: 4.5rem;
 }
 
 .previous2 {
@@ -118,5 +119,17 @@ img.previous2 {
     padding-bottom: 2rem;
 }
 
+.anirak {
+    position: relative;
+    right: 1.3rem;
+}
+.roarbikes {
+    position: relative;
+    right: 0.5rem;
+}
 
+.wireframe {
+    position: relative;
+    left: 1rem;
+}
 /* Previous works ends here */

@@ -108,10 +108,11 @@ p.design-process {
     padding: 2rem;
 }
 
-.previous1 {
+.previous-work {
+    position: relative;
+    left: 12rem;
     font-size: 3rem;
     color:#faf9fa;
-    margin-left: 4.5rem;
     padding-bottom: 2rem;
 }
 
@@ -127,6 +128,16 @@ p.design-process {
     margin-right: 1rem;
 }
 
+.anirak {
+    position: relative;
+    right: 0.3rem;
+}
+
+
+.wireframe {
+    position: relative;
+    left: 2.3rem;
+}
 img.previous2 {
     border-radius: 4px;
 }
