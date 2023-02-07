@@ -94,23 +94,28 @@ em {
 }
 
 .project-images {
-    /* margin-top: -8rem; */
-    /* border: 2px solid #faf9fa; */
-    max-width: 610px;
-    max-height:530px;
+    /* border: .2px solid #faf9fa; */
+    max-width: 606px;
+    min-height:560px;
 }
 
+.images-one {
+    position: relative;
+    top: 0;
+    left: 0;
+}
 .images-two {
     position: relative;
     z-index: 1;
-    left: -7rem;
-    top: 9rem;
+    left: -8em;
+    top: 9em;
 }
 
 .images-three {
     position: relative;
-    top: 3rem;
-    left: 20rem;
+    left: 20em;
+    top: 3em;
+
 }
 
 /* Anirak Irafaj project info starts here */
