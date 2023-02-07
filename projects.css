@@ -107,16 +107,16 @@ em {
 .images-two {
     position: absolute;
     z-index: 1;
-    left: 10em;
-    top: 10em;
-    transform: translate(10em, 10em);  
+    left: 75%;
+    top: 30%;
+    transform: translate(60%,0%);  
 }
 
 .images-three {
     position: absolute;
-    left: 20em;
-    top: 20em;
-    transform: translate(20em, 20em);
+    left: 0%;
+    top: 60%;
+    transform: translate(120%,0%);
 }
 
 /* Anirak Irafaj project info starts here */
