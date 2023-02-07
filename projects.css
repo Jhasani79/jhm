@@ -41,6 +41,7 @@ img.anirak-logo {
     justify-content: left;
     padding: 5rem;
     margin-bottom: 2rem;
+    max-width: 100%;
 }
 
 .project-base {
@@ -125,6 +126,7 @@ em {
 /* Roar bikes project starts here */
 
 .roar {
+    max-width: 100%;
     max-height: 60rem;
     background-color: #faf9fa;
     padding: 3rem;
