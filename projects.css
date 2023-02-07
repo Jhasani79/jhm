@@ -107,13 +107,13 @@ em {
 .images-two {
     position: relative;
     z-index: 1;
-    left: -8em;
+    right: 8em;
     top: 9em;
 }
 
 .images-three {
     position: relative;
-    left: 20em;
+    right: -19em;
     top: 3em;
 
 }
