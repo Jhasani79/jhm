@@ -39,6 +39,7 @@ img.anirak-logo {
 .project-info {
     display: flex;
     padding: 5rem;
+    margin-bottom: 2rem;
 }
 
 .project-base {
@@ -93,8 +94,10 @@ em {
 }
 
 .project-images {
-    margin-top: -8rem;
-    padding-bottom: 2rem;
+    /* margin-top: -8rem; */
+    /* border: 2px solid #faf9fa; */
+    max-width: 610px;
+    max-height:530px;
 }
 
 .images-two {
