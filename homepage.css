@@ -1,13 +1,10 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 body {
     background-image: url(images/Background.png);
+    background-size: 100%;
     background-repeat: no-repeat;
     color: #faf9fa;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 /* Landing Page starts here */

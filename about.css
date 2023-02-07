@@ -1,10 +1,7 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 body {
     background-color: #faf9fa;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 /* Navigation starts here */
@@ -89,7 +86,6 @@ button.head6 {
 hr {
     border: 2px solid #01506F;
     opacity: 50%;
-    margin-bottom: 2rem;
 }
 
 /* Previous works starts here */

@@ -1,11 +1,7 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 body {
     background-color: #01506F;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 /* header starts here */
@@ -119,7 +115,7 @@ em {
 /* Roar bikes project starts here */
 
 .roar {
-    height: 60rem;
+    max-height: 60rem;
     background-color: #faf9fa;
     padding: 3rem;
 }

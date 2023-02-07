@@ -1,11 +1,7 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 body {
     background-color: #faf9fa;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 /* Navigation starts here */

@@ -1,17 +1,14 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 body {
     background-color: #01506F;
     color: #faf9fa;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 /* navigation starts here */
 
 .header {
- height: 810px;
+ min-height: 810px;
 }
 
 /* navigation ends here */
