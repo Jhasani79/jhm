@@ -36,13 +36,16 @@ img.project {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
+    padding-left: 5em;
 }
 img.anirak-logo {
 
 }
 
 .project-info {
-    display: flex; 
+    display: flex;
+
 }
 
 .column-one {
