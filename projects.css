@@ -41,6 +41,7 @@ img.anirak-logo {
     justify-content: left;
     padding: 5rem;
     margin-bottom: 2rem;
+    box-sizing: border-box;
 }
 
 .project-base {
@@ -56,11 +57,11 @@ img.anirak-logo {
 }
 
 .text-one {
-    margin-bottom: 7.6rem;
+    margin-bottom: 6.3em;
 }
 
 .text-two {
-    margin-bottom: 3.4rem;
+    margin-bottom: 3.4em;
 }
 
 .text-three {
@@ -69,9 +70,8 @@ img.anirak-logo {
 
 .column-two {
     color: #faf9fa;
-    margin-left: 2rem;
-    max-width: 80ch;
-    margin-right: 3rem;
+    margin: 0 2rem 0 0;
+    max-width: 78ch;
 }
 
 .text-four {
@@ -142,13 +142,12 @@ em {
 }
 
 .column-one1 {
-    margin-left: 5rem;
+    margin: 1.5rem 0 0 5rem;
     min-width: 15ch;
-    margin-top: 2.7rem;
 }
 
 .text-one1 {
-    margin-bottom: 11rem;   
+    margin-bottom: 8.4em;   
 }
 
 .text-two1 {
@@ -160,9 +159,8 @@ em {
 }
 
 .column-two1{
-    margin-left: 6rem;
+    margin: 0 2rem 0 3rem;
     max-width: 80ch;
-    margin-right: 2rem;
     font-weight: 200;
     color: #1d2338;
 }
