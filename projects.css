@@ -3,226 +3,162 @@ body {
     box-sizing: border-box;
     max-width: 100%;
 }
-
 /* header starts here */
 
 .project-head {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -5rem;
-    margin-bottom: 1rem;
+    padding: 0 0 2em 0;
 }
 
-p.project {
+.project {
     color: #faf9fa;
     max-width: 40ch;
-    margin-left: 7.3rem;
-    font-weight: 100;
 }
 
-img.project {
-    width: 40rem;
-    opacity: 85%;
+#project {
+    max-width: 30em;
+    margin: 0 2em 0 0;
 }
 
 /* header ends here */
 
 /* Anirak Irafaj project info starts here */
 
-.anirak-info {
-
-    min-height: 700px;
+.content {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
-    padding-left: 5em;
-}
-img.anirak-logo {
-
+    padding: 3em;
 }
 
 .project-info {
     display: flex;
-
+    justify-content: center;
+    color: #faf9fa;
 }
 
-.column-one {
-    color: #faf9fa;
-    font-size: 1.5rem;
-    min-width: 15ch;
+#column-one {
+    padding: 0 2em;
 }
 
 .text-one {
-    margin-bottom: 6.3em;
+    margin-bottom: 9.7em;
 }
 
 .text-two {
-    margin-bottom: 3.4em;
+    margin-bottom: 2.4em;
 }
 
-.text-three {
-    
+#column-two {
+    max-width: 75ch;
+    padding: 1em 3em;
 }
 
-.column-two {
-    color: #faf9fa;
-    max-width: 78ch;
+#project-images {
+    max-width: 29em;
+    max-height: 32em;
 }
 
-.text-four {
-    font-size: 2rem;
-    font-family: 'IM FELL ENGLISH SC', sans-serif;
-    margin-bottom: 1rem;
-    /* padding-bottom: 1rem; */
+.images {
+    width: 15rem;
+    height: 13rem;
+    position: absolute;
 }
 
-em {
-    padding-bottom: 1rem;
-}
-
-.text-five {
-    padding-bottom: 1rem;
-    margin-top: -1rem;
-}
-
-.text-six {
-    padding-bottom: 1rem;
-}
-
-.project-images {
-    /* border: .2px solid #faf9fa; */
+img.two {
     position: relative;
-    /* max-width: 303px;
-    min-height:280px;
-    margin-top: -4em;
-    padding: 1em; */
+    top: 25%;
+    left: 25%;
 }
 
-.images-one {
-    position: absolute;
-}
-.images-two {
-    position: absolute;
-    z-index: 1;
-    left: 75%;
-    top: 30%;
-    transform: translate(60%,0%);  
+img.three {
+    position: relative;
+    top: 15%;
+    left:48%;
+    z-index: -1;
 }
 
-.images-three {
-    position: absolute;
-    left: 0%;
-    top: 60%;
-    transform: translate(120%,0%);
-}
-
-/* Anirak Irafaj project info starts here */
+/* Anirak Irafaj project info ends here */
 
 /* Roar bikes project starts here */
 
-.roar {
-    max-height: 60rem;
+.second {
     background-color: #faf9fa;
-    padding: 3rem;
+    max-height: 60em;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     
+    flex-direction: column;
+    padding: 3em;
 }
 
-.project-info1 {
+.project-info.two {
     display: flex;
-
+    justify-content: center;
+    color: #302D36;
 }
 
-.project-base1 {
+#column-one_dark{
+    padding: 0 3.8em;
+}
+
+.text-one_dark {
+    margin-top: 1.9em;
+    margin-bottom: 7.9em;
+}
+
+.text-two_dark {
+    margin-bottom: 2.4em;
+}
+#column-two_roar {
+    max-width: 75ch;
+}
+
+.roar-logo {
     display: flex;
+    align-items: center; 
 }
 
-.column-one1 {
-    margin: 1.5rem 0 0 0rem;
-    min-width: 15ch;
-}
-
-.text-one1 {
-    margin-bottom: 8.4em;   
-}
-
-.text-two1 {
-    margin-bottom: 1rem;
-}
-
-.text-three1 {
-
-}
-
-.column-two1{
-    margin: 0 2rem 0 3rem;
-    max-width: 78ch;
-    font-weight: 200;
-    color: #1d2338;
-}
-
-.roar-name {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    color: #1d2338;
-    margin-bottom: -2rem;
-}
-
-.roar-b {
-    max-width: 7.7rem;
-}
-
-.text-four1 {
+.roar-dark {
     font-size: 2rem;
     font-family: 'Courier Prime', monospace;
     font-weight: 700;
 }
-
-.text-five1 {
-  margin-bottom: 1rem;  
+img.roar-logo {
+    max-width: 7.7rem;
 }
 
-.text-six1 {
+.text-five_dark {
     margin-bottom: 1rem;
-}
+    margin-top: -0.8em;  
+  }
 
-.text-seven1 {
-    margin-bottom: 2rem;
-}
+.text-six_dark {
+    margin-bottom: 1rem;
+  }
 
 .roar-image {
-    width: 32rem;
-    height: 19.5rem;
-    margin-left: 4rem;
-    margin-top: 7rem;
+    max-width: 29em;
+    max-height: 20em;
+    padding-left: 4rem;
+    padding-top: 7rem;
 }
 
 .bottom-text {
-    margin-left: -60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: -24.5em;
 }
-.extra-info {
 
+.extra-info {
     max-width: 38ch;
-    padding-left: 7rem;
-    margin-bottom: 1rem;
 }
 
 button.head6 {
-    margin-bottom: 2rem;
-}
-
-button.head6:hover {
-    color: #01506F;
-}
-
-button.head6:active {
-    color: #faf9fa;
+    margin-left: 0;
 }
 
 /* Roar bikes project ends here */
